@@ -1,0 +1,260 @@
+body {
+    font-family: dm sans;
+}
+
+/* & estilo NavBar 
+backdrop-filter: blur(10px);
+*/
+.navbar {
+    background-color: #83a310ab;
+    border-radius: 60px;
+    padding: 0 3rem;;
+    margin:20px;
+    min-height: 70px;
+}
+
+.offcanvas {
+    background-color: rgba(16, 41, 14, 0.4);
+    display: flex;
+    text-align: center;
+    }
+
+.offcanvas-header {
+    margin-top: 35px;
+}
+
+.navbar-toggler {
+    border: none;
+    font-size:1.25rem;
+}
+
+.navbar-toggler:focus,
+.btn-close:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.nav-link {
+    color: #BFFF33;
+    font-weight: 700;
+    position: relative;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #002921;
+}
+
+.nav-link:before {
+    content: "";
+    position: absolute;
+    bottom: 5px; 
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #BFFF33;
+    visibility: hidden;
+    transform: scaleX(0); 
+    transform-origin: left;
+    transition: transform 0.3s ease-in-out;
+}
+
+.nav-link:hover:before,
+.nav-link.active:before {
+    visibility: visible;
+    transform: scaleX(1);
+    width: 100%;
+}
+
+.s-logo {
+height: 25px;
+}
+
+@media only screen and (min-width: 768px) {
+.s-logo { 
+        display: none !important;
+}
+}
+
+.l-logo{
+    height: 40px;
+}
+
+@media only screen and (max-width: 767px) {
+    .l-logo { 
+        display: none !important;
+    }
+}
+
+/* hero-section */
+.hero-section {
+    background-image: url(/asset/img/fondo-seccion_1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+.seccion1 {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin: 0 5%;
+}
+
+.info1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+
+.who-tag {
+        font-weight:600;
+        letter-spacing: -0.02rem;
+        font-size: 1.5rem;
+        backdrop-filter: blur(10px) saturate(200%);
+        background-color: rgba(17, 25, 40, 0.4);
+        border-radius: 30px;
+        min-height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 7%;
+        min-width: 95px;
+        color:#BFFF33;
+        margin-top: 25%;
+}
+
+.nombre {
+    font-size: 8rem;
+    font-weight: 900;
+    color:#002921;
+    letter-spacing:-0.05rem;
+    line-height: 0.8;
+
+}
+
+hr {
+    border: none; 
+    height: 2px;
+    background-color:#002921;
+    border-radius: 10px;
+    width: 70%;
+    opacity: 100%;
+    margin: 3% 0;
+}
+
+.legend1 {
+    font-size: 1.2rem;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    font-weight: 300;
+    margin-bottom: 12%;
+    
+}
+
+.contact{
+    display: flex;
+}
+
+.linea {
+    min-width: 2px;
+    background-color:#002921; 
+    margin-right: 20px;
+    border-radius: 2px;
+    height: 85%;
+    overflow: hidden;
+}
+
+.mailme {
+    font-size: 1.5rem;
+    line-height: 1;
+    letter-spacing: -0.02rem;
+    font-weight: 900;
+    color: #002921;
+    margin: 0;
+    padding: 0;
+}
+
+.legend2 {
+    font-size: 1rem;
+    
+}
+
+.mail {
+    display: flex;
+    align-items:baseline;
+    font-size: 1.5rem;
+    letter-spacing: -0.02rem;
+    font-weight: 400;
+    color: #002921;
+    text-decoration: none;
+    margin-top: 15%;
+}
+
+.arrow {
+    margin: 0 0 0 10px;
+    width: 15px;
+    height: 15px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.contenedor-elemento {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+
+.elemento {
+    margin-top: 18%;
+    width: 70%;
+    opacity: 55%;
+    animation: rotate 30s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+@media only screen and (max-width: 767px) {
+    .elemento { 
+        display: none !important;
+    }
+}
+
+/* Seccion educacion y exp */
+.seccion2 {
+    background-color: #F1FFCF;
+}
+
+.container-seccion2 {
+    display: flex;
+    flex-direction: column;;
+    height: 100vh;
+    margin: 0 5%;
+}
+
+.how-tag {
+    font-weight:600;
+    letter-spacing: -0.02rem;
+    font-size: 1.5rem;
+    backdrop-filter: blur(10px) saturate(200%);
+    background-color: #BDC7A4;
+    border-radius: 30px;
+    min-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7%;
+    min-width: 95px;
+    color:#002921;
+}
