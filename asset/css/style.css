@@ -8,9 +8,9 @@ backdrop-filter: blur(10px);
 .navbar {
     background-color: #83a310ab;
     border-radius: 60px;
-    padding: 0 3rem;;
-    margin:20px;
-    min-height: 70px;
+    padding: 0 5%;;
+    margin:3%;
+    min-height: 8vh;
 }
 
 .offcanvas {
@@ -20,7 +20,7 @@ backdrop-filter: blur(10px);
     }
 
 .offcanvas-header {
-    margin-top: 35px;
+    margin-top: 3vh;
 }
 
 .navbar-toggler {
@@ -67,7 +67,7 @@ backdrop-filter: blur(10px);
 }
 
 .s-logo {
-height: 25px;
+height: 2vh;
 }
 
 @media only screen and (min-width: 768px) {
@@ -77,7 +77,7 @@ height: 25px;
 }
 
 .l-logo{
-    height: 40px;
+    height: 4vh;
 }
 
 @media only screen and (max-width: 767px) {
@@ -113,22 +113,22 @@ height: 25px;
 .who-tag {
         font-weight:600;
         letter-spacing: -0.02rem;
-        font-size: 1.5rem;
+        font-size: 2vh;
         backdrop-filter: blur(10px) saturate(200%);
         background-color: rgba(17, 25, 40, 0.4);
         border-radius: 30px;
-        min-height: 40px;
+        min-height: 5vh;
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 7%;
-        min-width: 95px;
+        width: 6vw;
+        min-width: 9vh;
         color:#BFFF33;
         margin-top: 25%;
 }
 
 .nombre {
-    font-size: 8rem;
+    font-size: 10vh;
     font-weight: 900;
     color:#002921;
     letter-spacing:-0.05rem;
@@ -138,7 +138,7 @@ height: 25px;
 
 hr {
     border: none; 
-    height: 2px;
+    height: 0.2vh;
     background-color:#002921;
     border-radius: 10px;
     width: 70%;
@@ -147,11 +147,11 @@ hr {
 }
 
 .legend1 {
-    font-size: 1.2rem;
+    font-size: 2.5vh;
     line-height: 1;
     letter-spacing: -0.02em;
     font-weight: 300;
-    margin-bottom: 12%;
+    margin-bottom: 20vh;
     
 }
 
@@ -160,16 +160,16 @@ hr {
 }
 
 .linea {
-    min-width: 2px;
+    min-width: 0.2vh;
     background-color:#002921; 
-    margin-right: 20px;
+    margin-right: 2vw;
     border-radius: 2px;
     height: 85%;
     overflow: hidden;
 }
 
 .mailme {
-    font-size: 1.5rem;
+    font-size: 3vh;
     line-height: 1;
     letter-spacing: -0.02rem;
     font-weight: 900;
@@ -179,14 +179,14 @@ hr {
 }
 
 .legend2 {
-    font-size: 1rem;
+    font-size: 2.3vh;
     
 }
 
 .mail {
     display: flex;
     align-items:baseline;
-    font-size: 1.5rem;
+    font-size: 3vh;
     letter-spacing: -0.02rem;
     font-weight: 400;
     color: #002921;
@@ -223,7 +223,7 @@ hr {
     to {
       transform: rotate(360deg);
     }
-  }
+}
 
 @media only screen and (max-width: 767px) {
     .elemento { 
